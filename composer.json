@@ -1,0 +1,22 @@
+{
+    "name": "pouduo/iplocation",
+    "description": "获取IP真实地理位置",
+    "keywords": ["ip", "getip", "ip地址", "ip address", "location"],
+    "homepage": "https://github.com/pouduo/getIpLocation",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anyadmin",
+            "email": "liwei@pouduo.com"
+        }
+    ],
+    "require": {
+            "php": ">=5.4",
+    },
+    "autoload": {
+        "psr-4": {
+            "PouDuo\\IpLocation\\": "src/"
+        }
+    }
+}
